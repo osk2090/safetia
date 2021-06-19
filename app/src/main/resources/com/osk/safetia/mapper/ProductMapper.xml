@@ -45,7 +45,7 @@
       p.chol,
       p.pro
     from product_info p
-    where p.no = #{value}
+    where p.pno = #{value}
   </select>
 
   <select id="findByModel" resultMap="productMap" parameterType="string">
@@ -83,7 +83,12 @@
         sFat = #{saturatedFat},
         chol = #{cholesterol},
         pro = #{protein}
-    where no = #{no}
+    where pno = #{no}
   </update>
+
+    <delete id="delete" parameterType="int">
+        delete from product_info
+        where pno=#{value}
+    </delete>
 
 </mapper>

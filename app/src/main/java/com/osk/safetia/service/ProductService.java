@@ -14,4 +14,6 @@ public interface ProductService {
     int update(Product product) throws Exception;
 
     List<Product> search(String keyword) throws Exception;
+
+    int delete(int no) throws Exception;
 }

@@ -30,7 +30,7 @@
 <tr>
   <td>${p.no}</td>
   <td><a href='detail?no=${p.no}'>${p.model}</a></td>
-  <td>${p.price}</td>
+  <td>${p.price} 원</td>
   <td>${p.company}</td>
   <td><img src='${photoUrl}'></td>
 </tr>

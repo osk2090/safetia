@@ -15,6 +15,7 @@ public interface ProductDao {
 
   int update(Product board) throws Exception;
 
+  int delete(int no) throws Exception;
 }
 
 

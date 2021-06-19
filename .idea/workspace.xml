@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="safetia.app.main:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbf69aa8-39c6-4560-b478-3e5ccc561050" name="디폴트 변경 목록" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f58b3e4-9e9a-40ce-9b69-98eabe4efa2d.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f58b3e4-9e9a-40ce-9b69-98eabe4efa2d/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1f58b3e4-9e9a-40ce-9b69-98eabe4efa2d/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/out/production/resources/com/osk/safetia/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/resources/com/osk/safetia/mapper/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductAddHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductAddHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductListHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductListHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/service/impl/DefaultProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/service/impl/DefaultProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/resources/com/osk/safetia/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/com/osk/safetia/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/mapper/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductAddHandler$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductAddHandler$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductAddHandler$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductAddHandler$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductAddHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductAddHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductListHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductListHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/detail.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +49,17 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectId" id="1uAlr2Rt3gZufo6Z2sJsfRGYY7S" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -67,7 +78,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.osk.safetia.web" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.45" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/safetia_app_main_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -165,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624116470292</updated>
-      <workItem from="1624116475474" duration="89000" />
+      <workItem from="1624116475474" duration="5115000" />
     </task>
     <servers />
   </component>

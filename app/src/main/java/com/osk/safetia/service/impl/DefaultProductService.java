@@ -46,4 +46,11 @@ public class DefaultProductService implements ProductService {
     public List<Product> search(String keyword) throws Exception {
         return productDao.findByModel(keyword);
     }
+
+    @Override
+    public int delete(int no) throws Exception {
+        return productDao.delete(no);
+    }
+
+
 }
