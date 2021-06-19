@@ -10,7 +10,7 @@
 </head>
 <body>
 <h1>새제품</h1>
-<form action="add" method="post">
+<form action="add" method="post" enctype="multipart/form-data">
     상품명: <input type="text" name="model"><br>
     가격: <input type="number" name="price"><br>
     제조사: <input type="text" name="company"><br>

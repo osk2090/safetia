@@ -49,21 +49,25 @@
   </select>
 
   <select id="findByModel" resultMap="productMap" parameterType="string">
-    select pno,
-           pname,
-           pprice,
-           pcom,
-           pphoto,
-           na,
-           car,
-           sug,
-           tFat,
-           sFat,
-           chol,
-           pro
-    from product_info
-    where pname = #{value}
-    order by pno desc
+      select pno,
+      pname,
+      pprice,
+      pcom,
+      pphoto,
+      na,
+      car,
+      sug,
+      tFat,
+      sFat,
+      chol,
+      pro
+      from product_info
+      <if test="value != null">
+          where
+          pname like concat('%',#{value}.'%')
+      </if>
+
+      order by pno desc;
   </select>
   
   <update id="update" parameterType="product">

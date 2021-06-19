@@ -19,8 +19,16 @@ public class ProductListHandler {
 
     @RequestMapping("/product/list")
     public String execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
-        List<Product> list = productService.list();
-        request.setAttribute("list", list);
+        String keyword = request.getParameter("keyword");
+        List<Product> products = null;
+        if (keyword != null && keyword.length() > 0) {
+            products = productService.search(keyword);
+        } else {
+            products = productService.list();
+        }
+
+        request.setAttribute("list", products);
+
         return "/jsp/product/list.jsp";
     }
 }

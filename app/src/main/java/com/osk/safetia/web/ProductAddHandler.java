@@ -36,11 +36,30 @@ public class ProductAddHandler {
         p.setPrice(Integer.parseInt(request.getParameter("price")));
         p.setCompany(request.getParameter("company"));
 
+        p.setSalt(Integer.parseInt((request.getParameter("salt"))));
+        p.setCarbohydrate(Integer.parseInt(request.getParameter("carbohydrate")));
+        p.setSugar(Integer.parseInt(request.getParameter("sugar")));
+        p.setTransFat(Integer.parseInt(request.getParameter("transFat")));
+        p.setSaturatedFat(Integer.parseInt(request.getParameter("saturatedFat")));
+        p.setCholesterol(Integer.parseInt(request.getParameter("cholesterol")));
+        p.setProtein(Integer.parseInt(request.getParameter("protein")));
+
         Part photoPart = request.getPart("photo");
         if (photoPart.getSize() > 0) {
             String filename = UUID.randomUUID().toString();
             photoPart.write(uploadDir + "/" + filename);
             p.setPhoto(filename);
+
+            Thumbnails.of(uploadDir + "/" + filename)
+                    .size(30, 30)
+                    .outputFormat("jpg")
+                    .crop(Positions.CENTER)
+                    .toFiles(new Rename() {
+                        @Override
+                        public String apply(String name, ThumbnailParameter param) {
+                            return name + "_30x30";
+                        }
+                    });
 
             Thumbnails.of(uploadDir + "/" + filename)
                     .size(80, 80)
@@ -53,14 +72,6 @@ public class ProductAddHandler {
                         }
                     });
         }
-
-        p.setSalt(Integer.parseInt(request.getParameter("salt")));
-        p.setCarbohydrate(Integer.parseInt(request.getParameter("carbohydrate")));
-        p.setSugar(Integer.parseInt(request.getParameter("sugar")));
-        p.setTransFat(Integer.parseInt(request.getParameter("transFat")));
-        p.setSaturatedFat(Integer.parseInt(request.getParameter("saturatedFat")));
-        p.setCholesterol(Integer.parseInt(request.getParameter("cholesterol")));
-        p.setProtein(Integer.parseInt(request.getParameter("protein")));
 
         productService.add(p);
         return "redirect:list";
