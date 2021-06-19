@@ -1,7 +1,13 @@
 package com.osk.safetia.domain;
 
-public class nutrition {
-    private int no;
+public class Product {
+    private int no;//상품번호
+    private String model;//상품명
+    private int price;//가격
+    private String company;//제조사
+    private String photo;//사진
+
+    //영양정보
     private int salt;//니트륨
     private int carbohydrate;//탄수화물
     private int sugar;//당류
@@ -12,8 +18,12 @@ public class nutrition {
 
     @Override
     public String toString() {
-        return "nutrition{" +
+        return "Product{" +
                 "no=" + no +
+                ", model='" + model + '\'' +
+                ", price=" + price +
+                ", company='" + company + '\'' +
+                ", photo='" + photo + '\'' +
                 ", salt=" + salt +
                 ", carbohydrate=" + carbohydrate +
                 ", sugar=" + sugar +
@@ -22,14 +32,6 @@ public class nutrition {
                 ", cholesterol=" + cholesterol +
                 ", protein=" + protein +
                 '}';
-    }
-
-    public int getNo() {
-        return no;
-    }
-
-    public void setNo(int no) {
-        this.no = no;
     }
 
     public int getSalt() {
@@ -86,5 +88,45 @@ public class nutrition {
 
     public void setProtein(int protein) {
         this.protein = protein;
+    }
+
+    public int getNo() {
+        return no;
+    }
+
+    public void setNo(int no) {
+        this.no = no;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public String getCompany() {
+        return company;
+    }
+
+    public void setCompany(String company) {
+        this.company = company;
+    }
+
+    public String getPhoto() {
+        return photo;
+    }
+
+    public void setPhoto(String photo) {
+        this.photo = photo;
     }
 }

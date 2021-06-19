@@ -74,7 +74,14 @@ CREATE TABLE product_info (
                               pname  VARCHAR(11)  NOT NULL COMMENT '상품명', -- 상품명
                               pprice INTEGER      NOT NULL COMMENT '상품가격', -- 상품가격
                               pcom   VARCHAR(11)  NOT NULL COMMENT '제조사', -- 제조사
-                              pphoto VARCHAR(255) NOT NULL COMMENT '상품사진' -- 상품사진
+                              pphoto VARCHAR(255) NOT NULL COMMENT '상품사진', -- 상품사진
+                              na     INTEGER      NOT NULL COMMENT '나트륨', -- 나트륨
+                              car    INTEGER      NOT NULL COMMENT '탄수화물', -- 탄수화물
+                              sug    INTEGER      NOT NULL COMMENT '당류', -- 당류
+                              tFat   INTEGER      NOT NULL COMMENT '트랜스지방', -- 트랜스지방
+                              sFat   INTEGER      NOT NULL COMMENT '포화지방', -- 포화지방
+                              chol   INTEGER      NOT NULL COMMENT '콜레스테롤', -- 콜레스테롤
+                              pro    INTEGER      NOT NULL COMMENT '단백질' -- 단백질
 )
     COMMENT '상품정보';
 

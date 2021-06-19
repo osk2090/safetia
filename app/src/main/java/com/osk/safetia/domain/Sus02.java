@@ -1,12 +1,12 @@
 package com.osk.safetia.domain;
 
-public class sus01 {
+public class Sus02 {
     private int no;
-    private product product;
+    private Product product;
 
     @Override
     public String toString() {
-        return "sus01{" +
+        return "sus02{" +
                 "no=" + no +
                 ", product=" + product +
                 '}';
@@ -20,11 +20,11 @@ public class sus01 {
         this.no = no;
     }
 
-    public product getProduct() {
+    public Product getProduct() {
         return product;
     }
 
-    public void setProduct(product product) {
+    public void setProduct(Product product) {
         this.product = product;
     }
 }
