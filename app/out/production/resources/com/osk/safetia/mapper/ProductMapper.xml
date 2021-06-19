@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.osk.safetia.dao.ProductDao">
+  
+  <resultMap id="productMap" type="product">
+    <id column="pno" property="no"/>
+    <result column="pname" property="model"/>
+    <result column="pprice" property="price"/>
+    <result column="pcom" property="company"/>
+    <result column="pphoto" property="photo"/>
+
+      <!--영양정보-->
+    <result column="na" property="salt"/>
+    <result column="car" property="carbohydrate"/>
+    <result column="sug" property="sugar"/>
+    <result column="tFat" property="transFat"/>
+    <result column="sFat" property="saturatedFat"/>
+    <result column="chol" property="cholesterol"/>
+    <result column="pro" property="protein"/>
+
+  </resultMap>
+  
+  <insert id="insert" parameterType="product">
+      insert into product_info(pname, pprice, pcom, pphoto,
+                               na, car, sug, tFat, sFat, chol, pro)
+      values (#{model}, #{price}, #{company}, #{photo},
+              #{salt}, #{carbohydrate}, #{sugar}, #{transFat}, #{saturatedFat}, #{cholesterol}, #{protein})
+  </insert>
+
+  <select id="findByNo" resultMap="productMap" parameterType="int">
+    select
+      p.pno,
+      p.pname,
+      p.pprice,
+      p.pcom,
+      p.pphoto,
+      p.na,
+      p.car,
+      p.sug,
+      p.tFat,
+      p.sFat,
+      p.chol,
+      p.pro
+    from product_info p
+    where p.no = #{value}
+  </select>
+
+  <select id="findByModel" resultMap="productMap" parameterType="string">
+    select pno,
+           pname,
+           pprice,
+           pcom,
+           pphoto,
+           na,
+           car,
+           sug,
+           tFat,
+           sFat,
+           chol,
+           pro
+    from product_info
+    where pname = #{value}
+    order by pno desc
+  </select>
+  
+  <update id="update" parameterType="product">
+    update product_info
+    set pname   = #{model},
+        pprice = #{price},
+        pcom = #{company},
+        pphoto = #{photo},
+        na = #{salt},
+        car = #{carbohydrate},
+        sug = #{sugar},
+        tFat = #{transFat},
+        sFat = #{saturatedFat},
+        chol = #{cholesterol},
+        pro = #{protein}
+    where no = #{no}
+  </update>
+
+</mapper>

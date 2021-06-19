@@ -9,7 +9,7 @@ public interface ProductDao {
 
   int insert(Product product) throws Exception;
 
-  List<Product> findByKeyword(String keyword) throws Exception;
+  List<Product> findByModel(String keyword) throws Exception;
 
   Product findByNo(int no) throws Exception;
 

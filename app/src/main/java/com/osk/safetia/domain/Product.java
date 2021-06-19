@@ -8,7 +8,7 @@ public class Product {
     private String photo;//사진
 
     //영양정보
-    private int salt;//니트륨
+    private int salt;//나트륨
     private int carbohydrate;//탄수화물
     private int sugar;//당류
     private int transFat;//트랜스지방
