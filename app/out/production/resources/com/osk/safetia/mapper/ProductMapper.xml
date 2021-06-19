@@ -4,7 +4,7 @@
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.osk.safetia.dao.ProductDao">
-  
+
   <resultMap id="productMap" type="product">
     <id column="pno" property="no"/>
     <result column="pname" property="model"/>
@@ -21,8 +21,62 @@
     <result column="chol" property="cholesterol"/>
     <result column="pro" property="protein"/>
 
+      <!--sus_01-->
+<!--      <association property="products1" javaType="product">-->
+<!--          <id column="pno" property="no"/>-->
+<!--      </association>-->
+
+      <!--sus_02-->
+<!--      <association property="products2" javaType="product">-->
+<!--          <id column="pno" property="no"/>-->
+<!--      </association>-->
+
   </resultMap>
-  
+
+    <!--sus_01-->
+    <insert id="insertSus01" parameterType="map">
+        insert into sus_01_info(pno)
+        values(#{productNo})
+    </insert>
+
+    <!--sus_02-->
+    <insert id="insertSus02" parameterType="map">
+        insert into sus_02_info(pno)
+        values(#{productNo})
+    </insert>
+
+    <!--sus01상품불러오기-->
+    <select id="findSus01" resultMap="productMap" parameterType="int">
+        select
+            p.pno,
+            p.pname,
+            p.pprice,
+            p.pcom,
+            p.pphoto
+        from sus_01_info s1
+                 inner join product_info p on s1.pno=p.pno
+        where
+            s1.sno=#{value}
+        order by s1.sno desc
+    </select>
+
+    <!--sus02상품불러오기-->
+    <select id="findSus02" resultMap="productMap" parameterType="int">
+        select
+            p.pno,
+            p.pname,
+            p.pprice,
+            p.pcom,
+            p.pphoto
+        from sus_02_info s2
+                 inner join product_info p on s2.pno=p.pno
+        where
+            s2.sno=#{value}
+        order by s2.sno desc
+    </select>
+
+
+
   <insert id="insert" parameterType="product">
       insert into product_info(pname, pprice, pcom, pphoto,
                                na, car, sug, tFat, sFat, chol, pro)
@@ -69,7 +123,7 @@
 
       order by pno desc;
   </select>
-  
+
   <update id="update" parameterType="product">
     update product_info
     set pname   = #{model},

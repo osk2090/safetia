@@ -12,10 +12,12 @@
 <body>
 <h1>제품 목록</h1>
 <p><a href='add'>제품등록</a></p>
+<p><a href='list01'>sus_01확인</a></p>
+<p><a href='list02'>sus_02확인</a></p>
 <table border='1'>
 <thead>
 <tr>
-<th>번호</th> <th>상품명</th> <th>가격</th> <th>제조사</th> <th>사진</th>
+<th>번호</th> <th>상품명</th> <th>가격</th> <th>제조사</th> <th>사진</th> <th>비고</th>
 </tr>
 </thead>
 <tbody>
@@ -33,6 +35,11 @@
   <td>${p.price} 원</td>
   <td>${p.company}</td>
   <td><img src='${photoUrl}'></td>
+  <td><form action="put" method="post">
+    <input type="number" name="no" value="${p.no}">
+    <input type='submit' value='sus_01추가' onclick="check()">
+  </form></td>
+<%--  <td><a href='put?no=${p.no}'>sus_01추가</a></td>--%>
 </tr>
 </c:forEach>
 </tbody>
@@ -45,3 +52,9 @@
 
 </body>
 </html>
+
+<script>
+  function check() {
+        alert("sus_01 추가 완료");
+    }
+</script>

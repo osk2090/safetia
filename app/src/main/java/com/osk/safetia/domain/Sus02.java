@@ -1,14 +1,16 @@
 package com.osk.safetia.domain;
 
+import java.util.List;
+
 public class Sus02 {
     private int no;
-    private Product product;
+    private List<Product> products;
 
     @Override
     public String toString() {
-        return "sus02{" +
+        return "Sus02{" +
                 "no=" + no +
-                ", product=" + product +
+                ", products=" + products +
                 '}';
     }
 
@@ -20,11 +22,11 @@ public class Sus02 {
         this.no = no;
     }
 
-    public Product getProduct() {
-        return product;
+    public List<Product> getProducts() {
+        return products;
     }
 
-    public void setProduct(Product product) {
-        this.product = product;
+    public void setProducts(List<Product> products) {
+        this.products = products;
     }
 }
