@@ -45,7 +45,7 @@
 	<tfoot>
 	<tr>
 	  <td colspan='2'>
-	    <input type='submit' value='변경'><a href='delete?no=${product.no}'>삭제</a>
+	    <input type='submit' value='변경'> <a href='delete?no=${product.no}'>삭제</a>
 	  </td>
 	</tr>
 	</tfoot>    

@@ -35,26 +35,35 @@
   <td>${p.price} 원</td>
   <td>${p.company}</td>
   <td><img src='${photoUrl}'></td>
+
+  <c:set var="is01" scope="request" value="${isList01}"/>
+  <c:set var="existP" value="${false}"/>
+  <c:forEach items="${isList01}" var="is01">
+    <c:if test="${p.no == is01.no}">
+  <td>
+      <c:out value="재고있음"/>
+  </td>
+      <c:set var="existP" value="${true}"/>
+    </c:if>
+  </c:forEach>
+
+    <c:if test="${!existP}">
   <td><form action="put" method="post">
-    <input type="number" name="no" value="${p.no}">
-    <input type='submit' value='sus_01추가' onclick="check()">
+    <input type="number" name="no" value="${p.no}" hidden>
+    <input type='submit' value='sus_01/sus_02 추가' onclick="check()">
   </form></td>
-<%--  <td><a href='put?no=${p.no}'>sus_01추가</a></td>--%>
+    </c:if>
 </tr>
 </c:forEach>
+
 </tbody>
 </table>
-
-<form action='list' method='get'>
-<input type='search' name='keyword' value='${param.keyword}'>
-<button>검색</button>
-</form>
 
 </body>
 </html>
 
 <script>
   function check() {
-        alert("sus_01 추가 완료");
+        alert("sus_01/sus_02 추가 완료");
     }
 </script>

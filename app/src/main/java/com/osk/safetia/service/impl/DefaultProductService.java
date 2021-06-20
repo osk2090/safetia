@@ -4,10 +4,6 @@ import com.osk.safetia.dao.ProductDao;
 import com.osk.safetia.domain.Product;
 import com.osk.safetia.service.ProductService;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.PlatformTransactionManager;
-import org.springframework.transaction.TransactionStatus;
-import org.springframework.transaction.support.TransactionCallback;
-import org.springframework.transaction.support.TransactionTemplate;
 
 import java.util.List;
 import java.util.Map;

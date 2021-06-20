@@ -139,7 +139,6 @@
 
     <delete id="delete" parameterType="int">
         delete from product_info
-        where no=#{value}
+        where pno=#{value}
     </delete>
-
 </mapper>

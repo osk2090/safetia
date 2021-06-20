@@ -24,7 +24,9 @@ public class ProductDeleteHandler {
         if (p == null) {
             throw new Exception("해당 번호의 제품이 없습니다.");
         }
+
         productService.delete(no);
+
         return "redirect:list";
     }
 }

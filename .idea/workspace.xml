@@ -9,26 +9,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="779266e6-031c-4c3e-aa2f-586d5824fade" name="디폴트 변경 목록" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hotswap_agent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95dfbd79-c420-4eca-af87-ef249bba4559.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95dfbd79-c420-4eca-af87-ef249bba4559/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/95dfbd79-c420-4eca-af87-ef249bba4559/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0486d99f-5531-4530-bfa4-de3df1d10b80" name="디폴트 변경 목록" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7ea8c13c-c3ab-47d7-853e-7031e1159e91.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/com/osk/safetia/service/impl/DefaultProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/com/osk/safetia/service/impl/DefaultProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/com/osk/safetia/web/ProductDeleteHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/com/osk/safetia/web/ProductDeleteHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/com/osk/safetia/web/ProductListHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/com/osk/safetia/web/ProductListHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/classes/com/osk/safetia/web/ProductPutHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/classes/com/osk/safetia/web/ProductPutHandler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/out/production/resources/com/osk/safetia/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/resources/com/osk/safetia/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductUpdateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductUpdateHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sql/safetia.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/safetia.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/service/impl/DefaultProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/service/impl/DefaultProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductDeleteHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductDeleteHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductListHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductListHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductPutHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/ProductPutHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/resources/com/osk/safetia/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/com/osk/safetia/mapper/ProductMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/detail.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list01.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list01.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list02.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/mapper/ProductMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductUpdateHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductUpdateHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/service/impl/DefaultProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/service/impl/DefaultProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductDeleteHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductDeleteHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductListHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductListHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductPutHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/ProductPutHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/list01.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/list01.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/list02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/jsp/product/list02.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +71,13 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1uCiwwakA1ecLyteRFSLWyR5fxf" />
+  <component name="ProjectId" id="1uDOuq1Qpn9r7g8OVqz7VI9H4AY" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -80,7 +88,6 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="아티팩트" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -99,7 +106,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="f64fec63-6f50-41ce-92dd-c9330ec9219a" />
+        <option name="BASE_DIRECTORY_NAME" value="db4802eb-882a-4ed9-8e3a-46cefdcf58bf" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -107,7 +114,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50085" />
+        <option name="DEBUG_PORT" value="52463" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -180,12 +187,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="디폴트 작업">
-      <changelist id="779266e6-031c-4c3e-aa2f-586d5824fade" name="디폴트 변경 목록" comment="" />
-      <created>1624176213828</created>
+      <changelist id="0486d99f-5531-4530-bfa4-de3df1d10b80" name="디폴트 변경 목록" comment="" />
+      <created>1624196919700</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624176213828</updated>
-      <workItem from="1624176215974" duration="4578000" />
+      <updated>1624196919700</updated>
+      <workItem from="1624196925497" duration="1937000" />
     </task>
     <servers />
   </component>

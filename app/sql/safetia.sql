@@ -65,3 +65,17 @@ ALTER TABLE sus_02_info
             REFERENCES product_info ( -- 상품정보
                                      pno -- 상품번호
                 );
+
+
+alter table sus_01_info drop constraint FK_product_info_TO_sus_01_info;
+alter table sus_02_info drop constraint FK_product_info_TO_sus_02_info;
+
+alter table sus_01_info add constraint FK_product_info_TO_sus_01_info
+    foreign key (pno) references product_info (pno)
+        on delete cascade
+        on update cascade;
+
+alter table sus_02_info add constraint FK_product_info_TO_sus_02_info
+    foreign key (pno) references product_info (pno)
+        on delete cascade
+        on update cascade;

@@ -1,6 +1,5 @@
 package com.osk.safetia.web;
 
-import com.osk.safetia.domain.Product;
 import com.osk.safetia.service.ProductService;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

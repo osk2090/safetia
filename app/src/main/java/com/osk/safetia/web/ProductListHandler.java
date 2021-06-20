@@ -27,8 +27,10 @@ public class ProductListHandler {
             products = productService.list();
         }
 
-        request.setAttribute("list", products);
+        List<Product> products01 = productService.list01();
 
+        request.setAttribute("isList01", products01);
+        request.setAttribute("list", products);
         return "/jsp/product/list.jsp";
     }
 }
