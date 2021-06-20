@@ -15,29 +15,16 @@ import java.util.Map;
 @Service
 public class DefaultProductService implements ProductService {
 
-    TransactionTemplate transactionTemplate;
-
     ProductDao productDao;
 
-    public DefaultProductService(PlatformTransactionManager transactionTemplate, ProductDao productDao) {
-        this.transactionTemplate = new TransactionTemplate(transactionTemplate);
+    public DefaultProductService(ProductDao productDao) {
         this.productDao = productDao;
     }
 
     //제품등록
     @Override
     public int add(Product product) throws Exception {
-
-        return transactionTemplate.execute(new TransactionCallback<Integer>(){
-            @Override
-            public Integer doInTransaction(TransactionStatus status) {
-                try {
-                    return productDao.insert(product);
-                } catch (Exception e) {
-                    throw new RuntimeException(e);
-                }
-            }
-        });
+        return productDao.insert(product);
     }
 
     //제품목록조회
@@ -56,16 +43,7 @@ public class DefaultProductService implements ProductService {
     //제품 변경
     @Override
     public int update(Product product) throws Exception {
-        return transactionTemplate.execute(new TransactionCallback<Integer>() {
-            @Override
-            public Integer doInTransaction(TransactionStatus status) {
-                try {
-                    return productDao.update(product);
-                } catch (Exception e) {
-                    throw new RuntimeException(e);
-                }
-            }
-        });
+        return productDao.update(product);
     }
 
     //제품 검색
@@ -76,16 +54,7 @@ public class DefaultProductService implements ProductService {
 
     @Override
     public int delete(int no) throws Exception {
-        return transactionTemplate.execute(new TransactionCallback<Integer>() {
-            @Override
-            public Integer doInTransaction(TransactionStatus status) {
-                try {
-                    return productDao.delete(no);
-                } catch (Exception e) {
-                    throw new RuntimeException(e);
-                }
-            }
-        });
+        return productDao.delete(no);
     }
 
     ///////////////////////////////
@@ -97,7 +66,7 @@ public class DefaultProductService implements ProductService {
 
     @Override
     public List<Product> list01() throws Exception {
-        return productDao.findByModel(null);
+        return productDao.findSus01();
     }
 
     @Override
@@ -106,7 +75,7 @@ public class DefaultProductService implements ProductService {
     }
 
     @Override
-    public List<Product> list02(Map<String, Object> params) throws Exception {
-        return productDao.findByModel(null);
+    public List<Product> list02() throws Exception {
+        return productDao.findSus02();
     }
 }

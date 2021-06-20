@@ -26,5 +26,5 @@ public interface ProductService {
 
     int addWithProduct2(Map<String, Object> params) throws Exception;
 
-    List<Product> list02(Map<String, Object> params) throws Exception;
+    List<Product> list02() throws Exception;
 }

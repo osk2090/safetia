@@ -75,8 +75,9 @@ public class ProductUpdateHandler {
                         }
                     });
         }
-
+        System.out.println("1");
         productService.update(p);
+        System.out.println("2");
         return "redirect:list";
     }
 }

@@ -35,7 +35,7 @@
 		<tr><th>영양정보</th></tr>
 		<tr><th>나트륨</th> <td><input name='salt' type='number' value='${product.salt}'></td></tr>
 		<tr><th>탄수화물</th> <td><input name='carbohydrate' type='number' value='${product.carbohydrate}'></td></tr>
-		<tr><th>당류</</th> <td><input name='sugar' type='number' value='${product.sugar}'></td></tr>
+		<tr><th>당류</th> <td><input name='sugar' type='number' value='${product.sugar}'></td></tr>
 		<tr><th>트랜스지방</th> <td><input name='transFat' type='number' value='${product.transFat}'></td></tr>
 		<tr><th>포화지방</th> <td><input name='saturatedFat' type='number' value='${product.saturatedFat}'></td></tr>
 		<tr><th>콜레스테롤</th> <td><input name='cholesterol' type='number' value='${product.cholesterol}'></td></tr>

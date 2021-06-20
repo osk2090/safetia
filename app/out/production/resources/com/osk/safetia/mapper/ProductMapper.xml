@@ -46,36 +46,32 @@
     </insert>
 
     <!--sus01상품불러오기-->
-    <select id="findSus01" resultMap="productMap" parameterType="int">
+    <select id="findSus01" resultMap="productMap" parameterType="string">
         select
-            p.pno,
-            p.pname,
-            p.pprice,
-            p.pcom,
-            p.pphoto
-        from sus_01_info s1
-                 inner join product_info p on s1.pno=p.pno
-        where
-            s1.sno=#{value}
-        order by s1.sno desc
+        p.pno,
+        p.pname,
+        p.pprice,
+        p.pcom,
+        p.pphoto
+        from product_info p
+        inner join sus_01_info s1
+            on s1.pno=p.pno
+        order by s1.pno desc
     </select>
 
     <!--sus02상품불러오기-->
-    <select id="findSus02" resultMap="productMap" parameterType="int">
+    <select id="findSus02" resultMap="productMap" parameterType="string">
         select
-            p.pno,
-            p.pname,
-            p.pprice,
-            p.pcom,
-            p.pphoto
-        from sus_02_info s2
-                 inner join product_info p on s2.pno=p.pno
-        where
-            s2.sno=#{value}
-        order by s2.sno desc
+        p.pno,
+        p.pname,
+        p.pprice,
+        p.pcom,
+        p.pphoto
+        from product_info p
+                 inner join sus_02_info s2
+                            on s2.pno=p.pno
+        order by s2.pno desc
     </select>
-
-
 
   <insert id="insert" parameterType="product">
       insert into product_info(pname, pprice, pcom, pphoto,
@@ -120,29 +116,28 @@
           where
           pname like concat('%',#{value}.'%')
       </if>
-
       order by pno desc;
   </select>
 
-  <update id="update" parameterType="product">
-    update product_info
-    set pname   = #{model},
-        pprice = #{price},
-        pcom = #{company},
-        pphoto = #{photo},
-        na = #{salt},
-        car = #{carbohydrate},
-        sug = #{sugar},
-        tFat = #{transFat},
-        sFat = #{saturatedFat},
-        chol = #{cholesterol},
-        pro = #{protein}
-    where pno = #{no}
-  </update>
+    <update id="update" parameterType="product">
+        update product_info
+        set pname   = #{model},
+            pprice = #{price},
+            pcom = #{company},
+            pphoto = #{photo},
+            na = #{salt},
+            car = #{carbohydrate},
+            sug = #{sugar},
+            tFat = #{transFat},
+            sFat = #{saturatedFat},
+            chol = #{cholesterol},
+            pro = #{protein}
+        where pno = #{no}
+    </update>
 
     <delete id="delete" parameterType="int">
         delete from product_info
-        where pno=#{value}
+        where no=#{value}
     </delete>
 
 </mapper>

@@ -13,7 +13,7 @@ public interface ProductDao {
 
   Product findByNo(int no) throws Exception;
 
-  int update(Product board) throws Exception;
+  int update(Product product) throws Exception;
 
   int delete(int no) throws Exception;
 
@@ -23,7 +23,7 @@ public interface ProductDao {
 
   int insertSus02(Map<String, Object> params) throws Exception;
 
-  List<Product> findSus01(int productNo) throws Exception;
+  List<Product> findSus01() throws Exception;
 
-  List<Product> findSus02(int productNo) throws Exception;
+  List<Product> findSus02() throws Exception;
 }

@@ -20,7 +20,7 @@ public class ProductList02Handler {
     @RequestMapping("/product/list02")
     public String execute(HttpServletRequest request, HttpServletResponse response) throws Exception {
         String keyword = request.getParameter("keyword");
-        List<Product> products = productService.list01();
+        List<Product> products = productService.list02();
 
         request.setAttribute("list02", products);
 

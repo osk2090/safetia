@@ -24,11 +24,8 @@ public class ProductPutHandler {
         HashMap<String, Object> params = new HashMap<>();
         params.put("productNo", no);
 
-        //동시에 넣기
-        System.out.println("1111111");
         productService.addWithProduct1(params);
         productService.addWithProduct2(params);
-        System.out.println("222222");
 
         return "redirect:list";
     }

@@ -16,12 +16,12 @@
 <table border='1'>
 <thead>
 <tr>
-<th>번호</th> <th>상품명</th> <th>가격</th> <th>제조사</th> <th>사진</th> <th>비고</th>
+<th>번호</th> <th>상품명</th> <th>가격</th> <th>제조사</th> <th>사진</th>
 </tr>
 </thead>
 <tbody>
 
-<c:forEach items="${list}" var="p">
+<c:forEach items="${list02}" var="p">
   <c:if test="${not empty p.photo}">
     <c:set var="photoUrl">../../upload/${p.photo}_30x30.jpg</c:set>
   </c:if>
