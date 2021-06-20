@@ -121,17 +121,19 @@
 
     <update id="update" parameterType="product">
         update product_info
-        set pname   = #{model},
-            pprice = #{price},
-            pcom = #{company},
-            pphoto = #{photo},
-            na = #{salt},
-            car = #{carbohydrate},
-            sug = #{sugar},
-            tFat = #{transFat},
-            sFat = #{saturatedFat},
-            chol = #{cholesterol},
-            pro = #{protein}
+        <set>
+         <if test="model != ''"> pname = #{model},</if>
+         <if test="price != ''"> pprice = #{price},</if>
+         <if test="company != ''"> pcom = #{company},</if>
+         <if test="photo != ''"> pphoto = #{photo},</if>
+         <if test="salt != ''"> na = #{salt},</if>
+         <if test="carbohydrate != ''"> car = #{carbohydrate},</if>
+         <if test="sugar != ''"> sug = #{sugar},</if>
+         <if test="transFat != ''"> tFat = #{transFat},</if>
+         <if test="saturatedFat != ''"> sFat = #{saturatedFat},</if>
+         <if test="cholesterol != ''"> chol = #{cholesterol},</if>
+         <if test="protein != ''"> pro = #{protein}</if>
+        </set>
         where pno = #{no}
     </update>
 

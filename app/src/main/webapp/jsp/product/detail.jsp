@@ -28,7 +28,7 @@
 		<tr><th>상품명</th> <td><input name='model' type='text' value='${product.model}'></td></tr>
 		<tr><th>가격</th> <td><input name='price' type='number' value='${product.price}'> 원</td></tr>
 		<tr><th>제조사</th> <td><input name='company' type='text' value='${product.company}'></td></tr>
-		<tr><th>사진</th> <td><a href='${photoUrl}'>
+		<tr><th>사진</th> <td><a href='${photo80x80Url}'>
 			<img src='${photo80x80Url}'></a><br>
 			<input name='photo' type='file'></td></tr>
 
