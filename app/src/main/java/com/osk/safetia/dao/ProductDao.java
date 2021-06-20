@@ -17,7 +17,6 @@ public interface ProductDao {
 
   int delete(int no) throws Exception;
 
-  //////////////////////////////////
 
   int insertSus01(Map<String, Object> params) throws Exception;
 

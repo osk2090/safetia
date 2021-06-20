@@ -11,11 +11,115 @@
   <component name="ChangeListManager">
     <list default="true" id="cf2eb8df-66b9-42c7-9a49-0b81a5b0c433" name="디폴트 변경 목록" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hotswap_agent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/resources/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/out/production/resources/com/osk/safetia/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/out/production/resources/com/osk/safetia/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/sql/safetia.sql" beforeDir="false" afterPath="$PROJECT_DIR$/app/sql/safetia.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/service/impl/DefaultProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/service/impl/DefaultProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/filter/RequestLogFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/osk/safetia/web/filter/RequestLogFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/resources/com/osk/safetia/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/resources/com/osk/safetia/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/images/person_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/images/person_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/detail.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/detail.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list01.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list01.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list02.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/webapp/jsp/product/list02.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/mapper/ProductMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/mapper/ProductMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/service/impl/DefaultProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/service/impl/DefaultProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/filter/RequestLogFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/WEB-INF/classes/com/osk/safetia/web/filter/RequestLogFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0950343e-5a2c-4206-9ae7-6f10726d0d57" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0950343e-5a2c-4206-9ae7-6f10726d0d57_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0950343e-5a2c-4206-9ae7-6f10726d0d57_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0db45891-2375-4d3e-b5e0-dec127b084a6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0db45891-2375-4d3e-b5e0-dec127b084a6_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0db45891-2375-4d3e-b5e0-dec127b084a6_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0faceee9-8051-48cb-bcc3-567364eaa8a3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0faceee9-8051-48cb-bcc3-567364eaa8a3_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0faceee9-8051-48cb-bcc3-567364eaa8a3_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0fd2e4b3-8be6-4c17-b8d0-14dfdd9f304f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0fd2e4b3-8be6-4c17-b8d0-14dfdd9f304f_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/0fd2e4b3-8be6-4c17-b8d0-14dfdd9f304f_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/20f5723f-336a-4eb9-9747-7fd4ee076b01" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/20f5723f-336a-4eb9-9747-7fd4ee076b01_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/20f5723f-336a-4eb9-9747-7fd4ee076b01_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/23ac2471-c7aa-43df-b137-e5d96a529467" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/23ac2471-c7aa-43df-b137-e5d96a529467_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/23ac2471-c7aa-43df-b137-e5d96a529467_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/252a0c60-c186-44f9-bd7c-9809fc79bd8c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/252a0c60-c186-44f9-bd7c-9809fc79bd8c_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/252a0c60-c186-44f9-bd7c-9809fc79bd8c_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/2b779cab-2973-4661-880d-3f5bfad6e66c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/2b779cab-2973-4661-880d-3f5bfad6e66c_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/2b779cab-2973-4661-880d-3f5bfad6e66c_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/31827d66-42ff-4487-b1e0-9e2e01fe61e7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/31827d66-42ff-4487-b1e0-9e2e01fe61e7_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/31827d66-42ff-4487-b1e0-9e2e01fe61e7_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/31c15f5a-0d4d-44d3-b3ed-ca21cb3cf8d1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/31c15f5a-0d4d-44d3-b3ed-ca21cb3cf8d1_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/31c15f5a-0d4d-44d3-b3ed-ca21cb3cf8d1_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/3b936c22-8092-4f29-a130-06753029d1cd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/3b936c22-8092-4f29-a130-06753029d1cd_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/3b936c22-8092-4f29-a130-06753029d1cd_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/56217a8a-2fdd-49cf-8f38-a9d986cb9db8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/56217a8a-2fdd-49cf-8f38-a9d986cb9db8_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/56217a8a-2fdd-49cf-8f38-a9d986cb9db8_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/62b782cc-128b-4b95-ab58-c3836ff82006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/62b782cc-128b-4b95-ab58-c3836ff82006_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/62b782cc-128b-4b95-ab58-c3836ff82006_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/6e5f3084-60f5-4ad1-89ec-9d9522849f1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/6e5f3084-60f5-4ad1-89ec-9d9522849f1c_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/6e5f3084-60f5-4ad1-89ec-9d9522849f1c_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/6e6ce5fd-9b34-46a2-b8b8-2747579755ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/6e6ce5fd-9b34-46a2-b8b8-2747579755ee_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/6e6ce5fd-9b34-46a2-b8b8-2747579755ee_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/6f3779ad-3d4d-4890-8d57-70b14c846e80" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/6f3779ad-3d4d-4890-8d57-70b14c846e80_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/6f3779ad-3d4d-4890-8d57-70b14c846e80_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/7bebba4d-757d-4575-9516-fa8533d40160" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/7bebba4d-757d-4575-9516-fa8533d40160_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/7bebba4d-757d-4575-9516-fa8533d40160_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/82b6499f-3259-4dd9-a7e6-44d02bad5092" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/82b6499f-3259-4dd9-a7e6-44d02bad5092_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/82b6499f-3259-4dd9-a7e6-44d02bad5092_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/855c2008-5459-43b1-a752-cab302d315ee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/855c2008-5459-43b1-a752-cab302d315ee_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/855c2008-5459-43b1-a752-cab302d315ee_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/a3050324-8cae-48b2-80d2-c9fad45c0cc8" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/a3050324-8cae-48b2-80d2-c9fad45c0cc8_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/a3050324-8cae-48b2-80d2-c9fad45c0cc8_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/a38051e0-b3d9-47f6-a066-17443845c333" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/a38051e0-b3d9-47f6-a066-17443845c333_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/a38051e0-b3d9-47f6-a066-17443845c333_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/a4711e7e-82c2-4b39-8a73-f45a69a6d3fc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/a4711e7e-82c2-4b39-8a73-f45a69a6d3fc_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/a4711e7e-82c2-4b39-8a73-f45a69a6d3fc_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/bc89d63b-67a6-4f35-89f4-a34c0947dbc2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/bc89d63b-67a6-4f35-89f4-a34c0947dbc2_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/bc89d63b-67a6-4f35-89f4-a34c0947dbc2_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/c878bf2e-66fb-47b7-9ee6-1dcb86a8079d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/c878bf2e-66fb-47b7-9ee6-1dcb86a8079d_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/c878bf2e-66fb-47b7-9ee6-1dcb86a8079d_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/cfc6a33a-1c00-41c1-965d-76ded1401725" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/cfc6a33a-1c00-41c1-965d-76ded1401725_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/cfc6a33a-1c00-41c1-965d-76ded1401725_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/d08ac397-3939-4fb0-b290-a89bfc1a991f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/d08ac397-3939-4fb0-b290-a89bfc1a991f_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/d08ac397-3939-4fb0-b290-a89bfc1a991f_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/e444806f-e663-4335-86b7-745e6a2ae773" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/e444806f-e663-4335-86b7-745e6a2ae773_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/e444806f-e663-4335-86b7-745e6a2ae773_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/f151fd26-9ccf-4ee7-9320-efbb0c6d7353" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/f151fd26-9ccf-4ee7-9320-efbb0c6d7353_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/f151fd26-9ccf-4ee7-9320-efbb0c6d7353_80x80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/fa00574a-3880-408d-869f-0a328a79eb9e" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/fa00574a-3880-408d-869f-0a328a79eb9e_30x30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/safetia_app_main_war_exploded/upload/fa00574a-3880-408d-869f-0a328a79eb9e_80x80.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +166,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/webapp/images" />
     <property name="project.structure.last.edited" value="아티팩트" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -69,6 +174,17 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.45" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/safetia_app_main_war_exploded/" />
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -166,7 +282,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1624221082189</updated>
-      <workItem from="1624221087086" duration="413000" />
+      <workItem from="1624221087086" duration="756000" />
+      <workItem from="1624227630484" duration="695000" />
     </task>
     <servers />
   </component>

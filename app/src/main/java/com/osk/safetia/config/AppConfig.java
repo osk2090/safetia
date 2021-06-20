@@ -46,8 +46,8 @@ public class AppConfig {
 
     @Bean
     public SqlSessionFactory sqlSessionFactory(
-            DataSource dataSource, // DB 커넥션풀
-            ApplicationContext appCtx // Spring IoC 컨테이너
+            DataSource dataSource,
+            ApplicationContext appCtx//Spring IoC 컨테이너
     ) throws Exception {
         LogFactory.useLog4J2Logging();
 

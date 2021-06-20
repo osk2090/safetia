@@ -17,7 +17,7 @@
 		<c:set var="photoUrl">../upload/${product.photo}</c:set>
 	</c:if>
 	<c:if test="${empty product.photo}">
-		<c:set var="photo80x80Url">../../images/person_80x80.jpg</c:set>
+		<c:set var="photo80x80Url">../../images/x_80x80.jpg</c:set>
 		<c:set var="photoUrl"></c:set>
 	</c:if>
 

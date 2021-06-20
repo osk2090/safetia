@@ -53,7 +53,6 @@ public class DefaultProductService implements ProductService {
         return productDao.delete(no);
     }
 
-    ///////////////////////////////
 
     @Override
     public int addWithProduct1(Map<String, Object> params) throws Exception {

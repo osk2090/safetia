@@ -18,7 +18,6 @@ public interface ProductService {
 
     int delete(int no) throws Exception;
 
-    //////////////////////////////
 
     int addWithProduct1(Map<String, Object> params) throws Exception;
 

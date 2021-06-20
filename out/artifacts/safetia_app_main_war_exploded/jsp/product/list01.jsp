@@ -26,7 +26,7 @@
     <c:set var="photoUrl">../../upload/${p1.photo}_30x30.jpg</c:set>
   </c:if>
   <c:if test="${empty p1.photo}">
-    <c:set var="photoUrl">../../images/person_30x30.jpg</c:set>
+    <c:set var="photoUrl">../../images/x_30x30.jpg</c:set>
   </c:if>
 <tr>
   <td>${p1.no}</td>

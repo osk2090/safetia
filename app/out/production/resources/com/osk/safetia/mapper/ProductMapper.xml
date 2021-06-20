@@ -21,16 +21,6 @@
     <result column="chol" property="cholesterol"/>
     <result column="pro" property="protein"/>
 
-      <!--sus_01-->
-<!--      <association property="products1" javaType="product">-->
-<!--          <id column="pno" property="no"/>-->
-<!--      </association>-->
-
-      <!--sus_02-->
-<!--      <association property="products2" javaType="product">-->
-<!--          <id column="pno" property="no"/>-->
-<!--      </association>-->
-
   </resultMap>
 
     <!--sus_01-->
