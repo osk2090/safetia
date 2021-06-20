@@ -25,7 +25,7 @@ CREATE TABLE product_info (
                               pname  VARCHAR(11)  NOT NULL COMMENT '상품명', -- 상품명
                               pprice INTEGER      NOT NULL COMMENT '상품가격', -- 상품가격
                               pcom   VARCHAR(11)  NOT NULL COMMENT '제조사', -- 제조사
-                              pphoto VARCHAR(255) NOT NULL COMMENT '상품사진', -- 상품사진
+                              pphoto VARCHAR(255) NULL     COMMENT '상품사진', -- 상품사진
                               na     INTEGER      NOT NULL COMMENT '나트륨', -- 나트륨
                               car    INTEGER      NOT NULL COMMENT '탄수화물', -- 탄수화물
                               sug    INTEGER      NOT NULL COMMENT '당류', -- 당류
